@@ -80,21 +80,3 @@ fn main() {
         .expect("failed to run app");
 }
 ```
-
-## Contributing
-
-If you want to help out, there are a few areas that need improvement:
-
-- **Client Adapters** - Currently, only a urql adapter exists; having adapters for more client libraries would be very nice.
-
-PRs are welcome!
-
-## License
-
-[MIT © Jonas Kruckenberg](./LICENSE)
-
-[`tauri-plugin-graphql-urql`]: packages/urql
-[urql-adapter-version-badge]: https://img.shields.io/npm/v/tauri-plugin-graphql-urql?label=%20
-[urql-adapter-changelog]: packages/urql/CHANGELOG.md
-[`urql`]: https://formidable.com/open-source/urql/
-[`async_graphql::Schema`]: https://docs.rs/async-graphql/latest/async_graphql/struct.Schema.html
