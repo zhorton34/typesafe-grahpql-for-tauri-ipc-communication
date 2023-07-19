@@ -1,0 +1,25 @@
+{
+  "name": "preact-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "1.0.2",
+    "@urql/preact": "3.0.1",
+    "preact": "10.10.6",
+    "tauri-plugin-graphql-urql": "link:../../packages/urql"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.13",
+    "@preact/preset-vite": "2.3.0",
+    "@tauri-apps/cli": "1.0.5",
+    "graphql": "16.6.0",
+    "typescript": "4.8.2",
+    "vite": "3.0.9"
+  }
+}
