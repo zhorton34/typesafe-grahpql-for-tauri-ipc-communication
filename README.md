@@ -1,16 +1,5 @@
 # Tauri Plugin graphql
 
-[![Crates.io][crates-badge]][crates-url]
-[![Documentation][docs-badge]][docs-url]
-[![MIT licensed][mit-badge]][mit-url]
-
-[crates-badge]: https://img.shields.io/crates/v/tauri-plugin-graphql.svg
-[crates-url]: https://crates.io/crates/tauri-plugin-graphql
-[docs-badge]: https://img.shields.io/docsrs/tauri-plugin-graphql.svg
-[docs-url]: https://docs.rs/tauri-plugin-graphql
-[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[mit-url]: LICENSE
-
 A plugin for Tauri that enables type-safe IPC through GraphQL.
 
 ## Install
